@@ -11,8 +11,10 @@ arr[0] = [3,7];
 
 let num1 = prompt(`Enter the first number`)
 let num2 = prompt(`Enter the second number`)
-let multiple = num1*num2;
-console.log(`${num1} x ${num2} = ${multiple}`);
+function multiple(a,b) {
+  console.log(`${a} x ${b} = ${a*b}`);
+}
+multiple(num1,num2);
 
 //task3 create an if statement
 
